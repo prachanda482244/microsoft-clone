@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .item {
+        @apply flex items-center mx-4 my-2 space-x-4 font-medium;
+    }
+}
